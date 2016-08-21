@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="WinDEP_mbreda_SampleApp.MainPage"
+    x:Class="WinDEP_mbreda_SampleApp.BluetoothScenario1"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:WinDEP_mbreda_SampleApp"
@@ -8,6 +8,6 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button Name="btnPage2"> go to page 2</Button>
+        <Button Name="btsc1" Content="BT SC 1" Click="btsc1_Click"></Button>
     </Grid>
 </Page>
