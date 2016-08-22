@@ -8,6 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button Name="btnPage2"> go to page 2</Button>
+        <TextBlock Text="MainPage"/>
+        <Button Name="btnPage2" Click="btnPage2_Click"> go to page 2</Button>
     </Grid>
 </Page>

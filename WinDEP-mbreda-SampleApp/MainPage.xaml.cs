@@ -33,8 +33,13 @@ namespace WinDEP_mbreda_SampleApp
         {
             base.OnNavigatedTo(e);
            // NavigationService.Initialize(typeof(App), BluetoothMain);
-            NavigationService.NavigateToPage(typeof(BluetoothMain));
+            //Navigate.NavigateToPage(typeof(BluetoothMain),null);
+            Frame.Navigate(typeof(BluetoothMain));
         }
 
+        private void btnPage2_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(BluetoothMain));
+        }
     }
 }

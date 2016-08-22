@@ -32,7 +32,7 @@ namespace WinDEP_mbreda_SampleApp
          
 private void bt2ndPage_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.NavigateToPage("BluetoothScenario1");
+            Frame.Navigate(typeof(BluetoothScenario1));
         }
     }
 }

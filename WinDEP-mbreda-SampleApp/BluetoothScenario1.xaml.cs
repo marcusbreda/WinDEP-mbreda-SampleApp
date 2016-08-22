@@ -32,7 +32,8 @@ namespace WinDEP_mbreda_SampleApp
                       
 private void btsc1_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.GoBack();
+            if(Frame.CanGoBack)
+            Frame.GoBack();
         }
     }
 }
