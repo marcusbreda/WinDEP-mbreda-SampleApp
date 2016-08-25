@@ -9,6 +9,8 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <TextBlock Text="MainPage"/>
-        <Button Name="btnPage2" Click="btnPage2_Click"> go to page 2</Button>
+        <Button Name="btnPage2" Click="btnPage2_Click">go to page 2</Button>
+       
     </Grid>
+    
 </Page>
